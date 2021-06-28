@@ -1,0 +1,15 @@
+- Se utilizan para agrupar un conjunto de módulos relacionados entre si, todo en un mismo directorio.
+- Organizar y reutilizar módulos
+- Debe tener un archivo llamado __init__.py
+- Se pueden usar las funciones desde otro archivo en otro directorio
+- A parte del directorio principal, se pueden crear sub-directorios para organizar mejor los módulos, PERO en esas sub-carpetas debe haber un __init__.py, igual que en la carpeta principal.
+
+- Los paquetes se pueden instalar para utlizarlos desde cualquier lugar:
+    - Se crea el archivo setup.py en la carpeta raíz
+    - En una terminal dentro de la carpeta donde está el setup.py se escribe "python3 setup.py sdist". 
+    Yo pongo python3 porque es el que tengo.
+    - El que se distribuye es el archivo comprimido dentro de dist
+    - Para instalarlo, desde la terminal se accede dentro de la carpeta dist y escribir "pip3 install nombre_paquete"
+
+- Una vez instalado ya da igual donde pongamos el paquete o el archivo donde lo usaremos
+- Para desinstalarlo se entra en una terminal (da igual donde) y se escribe "pip3 uninstal nombre_paquete"
