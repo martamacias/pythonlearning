@@ -1,0 +1,3 @@
+Frase de prueba para escribir en el archivo.
+Linea añadida en el método lectura_escritura
+Frase modo append que se añade al final.
